@@ -37,9 +37,9 @@ class HomeScreen {
     // async clickTrainTimeButton() {
     //     await $(this.timeBtnSelector).click()
     // }
-    // async clickTicketPriceButton() {
-    //     await $(this.priceBtnSelector).click()
-    // }
+    async clickTicketPriceButton() {
+        await $(this.priceBtnSelector).click()
+    }
     // async clickTrainTackingButton() {
     //    await $(this.trainTrackingBtnSelector).click()
     // }

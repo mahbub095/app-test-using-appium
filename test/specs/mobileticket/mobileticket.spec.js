@@ -11,7 +11,7 @@ describe('Verify Mobile Ticket Feature', () => {
         await homeScreen.clickMobileTicketButton()
     })
 
-    it('Verify user can view the SMS rules to buy ticket using sms', async () => {
-        await mobileTicketHomeScreen.clickSmsRulesBtn()
-    })
+    // it('Verify user can view the SMS rules to buy ticket using sms', async () => {
+    //     await mobileTicketHomeScreen.clickSmsRulesBtn()
+    // })
 });
