@@ -1,13 +1,13 @@
 {
-    "validInfo":{
-        "name":"Auntor",
-        "phone":"01795470510",
-        "email":"acharjeeauntor@gmail.com",
-        "district":"টাঙ্গাইল"
+    "validInfo": {
+        "name": "Mahbub",
+        "phone": "01671816194",
+        "email": "mahbub.0095@gmail.com",
+        "district": "টাঙ্গাইল"
     },
-    "alertMessage":"অনুগ্রহ করে আপনার সঠিক তথ্য দিন",
+    "alertMessage": "অনুগ্রহ করে আপনার সঠিক তথ্য দিন",
     "invalidInfo": {
-        "phone":"&*^&*^",
-        "email":"*&*^(&**&^&*^"
+        "phone": "&*^&*^",
+        "email": "*&*^(&**&^&*^"
     }
 }
