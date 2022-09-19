@@ -65,10 +65,10 @@ exports.config = {
         // excludeDriverLogs: ['*'], // pass '*' to exclude all driver session logs
         // excludeDriverLogs: ['bugreport', 'server'],
         "platformName": "Android",
-        "appium:platformVersion": "7",
-        "appium:deviceName": "Pixel 3",
+        "appium:platformVersion": "10",
+        "appium:deviceName": "SM J600G",
         "appium:automationName": "UIAutomator2",
-        "appium:app": path.join(process.cwd(), "./app/android/ApiDemos-debug.apk")
+        "appium:app": path.join(process.cwd(), "./app/android/Amader Rail.apk")
     }],
     //
     // ===================
