@@ -8,10 +8,6 @@ describe('Verify Account/Account Information', () => {
         await landingScreen.clickSkipBtn()
     })
 
-    // it('TC _001: Verify user will not Register to the application using empty input', async () => {
-    //     await registrationScreen.clickSubmitBtn()
-    // })
-
     it('Verify user will be Register to the application using valid information', async () => {
         await registrationScreen.enterName(registrationData.validInfo.name)
         await registrationScreen.enterPhoneNumber(registrationData.validInfo.phone)
