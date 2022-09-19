@@ -5,17 +5,13 @@ const mobileTicketHomeScreen = require("../../screenobjects/mobileticket/mobilet
 
 describe('Verify Mobile Ticket Feature', () => {
 
-    // before(async () => {
-    //     await landingScreen.clickSkipBtn()
-    //     await registrationScreen.clickSkipRegistrationBtn()
-    //     await homeScreen.clickMobileTicketButton()  
-    // })
-
-
-    it('Verify user can view the SMS rules to buy ticket using sms', async () => {
+    before(async () => {
         await landingScreen.clickSkipBtn()
         await registrationScreen.clickSkipRegistrationBtn()
         await homeScreen.clickMobileTicketButton()
+    })
+
+    it('Verify user can view the SMS rules to buy ticket using sms', async () => {
         await mobileTicketHomeScreen.clickSmsRulesBtn()
     })
 });
